@@ -159,6 +159,7 @@ body{
     color: white;
     font-family: roboto;
     padding: 50px;
+    border-radius: 10px;
 
 }
 .secFourBox button{
