@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: roboto;
+    color: whitesmoke;
+    padding: 0 10px;
+    margin: 0;
+    width: 60%;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.header ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.sectionOne{
+    display: flex;
+    color: whitesmoke;
+    font-family: roboto;
+    padding: 40px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.sectionOne img{
+    height: 400px;
+    width: auto;
+}
+.introText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap:15px;
+    
+}
+.heading{
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+.subtext{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+.sectionWithHeader{
+     background-color:#1F2937 ;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    
+}
+
+.sectionOne button{
+    width: 150px ;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: none;
+    color: whitesmoke;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 900;
+   
+}
+
+
+.sectionTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto;
+    
+}
+.secTwoinfo{
+    width:60%;
+    text-align: center; 
+    
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    color: #1F2937;
+    
+}
+.card img{
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.secTwoTitle{
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+
+}
+
+
+
+
+.sectionThree{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    margin-top: 50px;
+}
+
+.quote,.quoteAuthor{
+    width: 60%;
+    font-family: roboto;
+}
+.quoteAuthor{
+    text-align: right;
+    color: #1F2937;
+    margin: 0;
+    font-weight: 800;
+    font-size: 20px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    
+    
+}
+
+
+
+
+
+.SectionFour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    
+}
+.secFourBox{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    font-family: roboto;
+    padding: 50px;
+
+}
+.secFourBox button{
+    background-color: #3882F6;
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
+    width: 100px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+
+
+footer{
+    background-color: #1F2937;
+    color: whitesmoke;
+    text-align: center;
+    padding:20px;
+}
